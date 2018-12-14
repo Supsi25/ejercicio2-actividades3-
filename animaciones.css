@@ -1,0 +1,45 @@
+body
+{  
+    margin: 0;
+    padding: 0;  
+    height: 100vh;
+}
+
+main
+{  
+    height: 100vh;
+    width: 100vw;
+}
+
+.container
+{  
+    width: 100vw;
+    height: 100vh;
+    background: purple;
+}
+
+div div
+{    
+    width: 200px;
+    height: 200px;
+    background: orange;
+    border: 1px solid black;
+}
+
+div:nth-child(2):hover
+{
+    transform: rotate(20deg) translate(50px, 50px);
+}
+
+@keyframes cambioColor
+{
+    0% { background: red; width: 1.5em;}
+    50% { background: green; width: 3em;}
+    100% {background: blue; width: 4.5em;}
+}
+
+div:nth-child(3):hover
+{
+    animation-name: cambioColor;
+    animation-duration: 4s;
+}
