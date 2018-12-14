@@ -44,3 +44,7 @@ div:nth-child(3):hover
     animation-name: cambioColor;
     animation-duration: 4s;
 }
+
+footer{
+background-color:red;
+}
